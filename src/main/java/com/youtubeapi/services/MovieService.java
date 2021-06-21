@@ -28,7 +28,7 @@ public class MovieService {
 
             YouTube.Search.List search = youTube.search().list("id,snippet");
 
-            String apiKey = "AIzaSyAj5TrumoUcbgjr8uVXQJYlI1sfVKYvYYA";
+            String apiKey = "api-key";
             search.setKey(apiKey);
 
             search.setQ(queryTerm);
